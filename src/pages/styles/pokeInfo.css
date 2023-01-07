@@ -1,0 +1,124 @@
+.poke__info{
+  width: 100%;
+  max-width: 100%px;  
+  border-radius: 0.7em;      
+  margin: 7em 0;  
+  }
+
+.poke__info-header{  
+  height: 150px;
+  position: relative;  
+  border-radius: 0.7em 0.7em 0 0; 
+}
+
+.poke__info-sprite{
+  width: 25%;
+  position: absolute;
+  bottom: 0.1px;  
+  left: 50%;
+  transform: translateX(-50%);  
+}
+
+.poke__info-body{    
+  padding: 15px 20px;
+}
+
+.container___info-id{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;  
+}
+.poke__info-id{
+  width: 50px;
+  aspect-ratio: 1.2;
+  text-align: center;
+  padding: 5px;
+  font-size: 1.5em; 
+  border: 1px solid #D3D3D3;
+  border-radius: 5px;
+}
+
+.poke__info-name{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1.9em;  
+}
+.container__types-and-habilities{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+  
+}
+.container__info-type, .container__info-habilities{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.poke__info-type, .poke__info-habilities{  
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 600;
+  text-transform: capitalize;  
+}
+.item__info-type{
+  padding: 2px 15px;
+  color: #FFFFFF;
+  border-radius: 2px;  
+}
+.item__info-habilities{
+  padding: 2px 15px;
+  color: #302F2F;
+  border-radius: 2px; 
+  border: 1px solid #D3D3D3;
+}
+
+
+
+.poke__info__stats-container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px 5px;
+}
+.stats__description{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.bar__stats{
+  width: 100%;
+  background-color: #F7F7F7;
+  height: 20px;
+}
+
+.grafic__stats{
+  background-image: linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%); 
+  height: 20px;
+}
+
+.poke__info-stats{
+  padding: 15px 50px;
+}
+
+.poke__info-move{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 10px;
+  padding: 15px;
+}
+
+.poke__move-item{
+  background-color: #E5E5E5;
+  border-radius: 50px;
+  padding: 18px 30px;
+}
+
+
+
