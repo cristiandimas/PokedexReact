@@ -1,6 +1,7 @@
 .pagination__list{
   display: flex;
   gap: .7em;
+  
 }
 
 .pagination__item{

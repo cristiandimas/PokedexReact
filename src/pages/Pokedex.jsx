@@ -55,13 +55,13 @@ const Pokedex = () => {
   //Lógica paginación
 
   const [page, setPage] = useState(1)
-  const [pokePerPage, setPokePerPage] = useState(8)
+  const [pokePerPage, setPokePerPage] = useState(6)
   const initialPoke = (page - 1) * pokePerPage
   const finalPoke = page * pokePerPage
   const maxPage = pokemons && Math.ceil(pokemons.length / pokePerPage)
 
   return (
-    <div>
+    <div className='pokedex__container'>
       <h2>Welcome {trainer}, here you can find your favorite pokemon</h2>
       <form onSubmit={handleSubmit}>
         <input type="text" id='SearchPoke' />

@@ -11,6 +11,8 @@ if(trainer){
   return (<>
     <HeaderPoke/>
     <Outlet/>
+    <hr />
+    
   </>
   )
 }else{
